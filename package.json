@@ -1,0 +1,15 @@
+{
+  "name": "api-testing-framework",
+  "version": "1.0.0",
+  "description": "A reusable and scalable API testing framework using Playwright and Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn cucumber-js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^8.x",
+    "playwright": "^1.x",
+    "@playwright/test": "^1.x",
+    "node-fetch": "^2.x"
+  }
+}
