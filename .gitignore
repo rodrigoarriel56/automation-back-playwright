@@ -1,2 +1,6 @@
-# Ignore node_modules directory
-*.node_modules/
+# --- Arquivos de Ambiente e Segurança (NUNCA comitar) ---
+.env
+.env.local
+
+# --- Dependências de Pacotes ---
+node_modules/
